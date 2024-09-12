@@ -1,0 +1,1 @@
+rows, cols = map(int, test_case.split())
