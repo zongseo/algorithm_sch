@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/castle/algorithm_sch/Practice01/merge_sort'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _c_merge, symObjAddr: 0x0, symBinAddr: 0x100003870, symSize: 0x1E0 }
+  - { offset: 0x65, size: 0x8, addend: 0x0, symName: _c_merge, symObjAddr: 0x0, symBinAddr: 0x100003870, symSize: 0x1E0 }
+  - { offset: 0x123, size: 0x8, addend: 0x0, symName: _c_mergesort, symObjAddr: 0x1E0, symBinAddr: 0x100003A50, symSize: 0x204 }
+  - { offset: 0x1E5, size: 0x8, addend: 0x0, symName: _insertion_sort, symObjAddr: 0x3E4, symBinAddr: 0x100003C54, symSize: 0xF8 }
+  - { offset: 0x241, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x4DC, symBinAddr: 0x100003D4C, symSize: 0x1E4 }
+...
